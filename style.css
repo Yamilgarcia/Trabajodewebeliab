@@ -1,0 +1,204 @@
+body {
+    background-image: url('Imagenes/1319447.jpeg');
+    background-size: 2800px;
+    /* Para que la imagen cubra todo el fondo */
+    background-position-x: center;
+    background-repeat: no-repeat;
+    /* Para evitar que la imagen se repita */
+
+    
+    
+}
+
+.container2 {
+    perspective: 1000px; /* Ajusta la perspectiva según sea necesario */
+    width: 1200px; /* Ajusta el ancho del contenedor según sea necesario */
+    height: 300px; /* Ajusta la altura del contenedor según sea necesario */
+    position: relative;
+  }
+  
+  .tarjeta {
+    width: 150px; /* Ajusta el ancho de las tarjetas según sea necesario */
+    height: 200px; /* Ajusta la altura de las tarjetas según sea necesario */
+    background-color: #442222;
+    font-size: 40px;
+    position: absolute;
+    top: 50px; /* Ajusta la posición vertical de las tarjetas según sea necesario */
+    left: 700px; /* Ajusta la posición horizontal de las tarjetas según sea necesario */
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    animation: Carrusel 8s linear infinite;
+    margin-right: 20px; /* Agrega margen a la derecha de cada tarjeta */
+  }
+  
+  .tarjeta:last-child {
+    margin-right: 0; /* Elimina el margen a la derecha de la última tarjeta */
+  }
+  
+  @keyframes Carrusel {
+    from {
+      transform: rotateY(360deg) translateZ(300px); /* Ajusta la distancia en el eje Z según sea necesario */
+      z-index: 10;
+      opacity: 0.9;
+    }
+    50% {
+      z-index: -10;
+    }
+    to {
+      transform: rotateX(0deg) translateZ(300px) rotateX(0deg); /* Ajusta la distancia en el eje Z según sea necesario */
+      z-index: 10;
+    }
+  }
+  
+
+#reyna{
+    background-image: url(Imagenes/reyna.jpg);
+    background-size: cover;
+  }
+  
+  #reyna:hover{
+    box-shadow: 0px 0px 10px rgb(186, 21, 207) ;
+  }
+  
+  
+  #yuru{
+    background-image: url(Imagenes/Yurus.png);
+    background-size: cover;
+    animation-delay: -1s;
+  }
+  
+  #yuru:hover{
+    box-shadow: 0px 0px 10px rgb(10, 100, 235) ;
+  }
+  
+  #deadlock{
+    background-image: url(Imagenes/Deadlock.png);
+    background-size: cover;
+    animation-delay: -2s;
+  }
+  
+  #deadlock:hover{
+    box-shadow: 0px 0px 10px rgb(154, 157, 161) ;
+  }
+  
+  
+  #omen{
+    background-image: url(Imagenes/Omen.jpg);
+    background-size: cover;
+    animation-delay: -3s;
+  }
+  
+  #omen:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0) ;
+  }
+  
+  
+  #raze{
+    background-image: url(Imagenes/Raze.jpg);
+    background-size: cover;
+    animation-delay: -4s;
+  }
+  
+  
+  #raze:hover{
+    box-shadow: 0px 0px 10px rgb(228, 159, 10) ;
+  }
+  
+  #killjoy{
+    background-image: url(Imagenes/Killjoy.jpeg);
+    background-size: cover;
+    animation-delay: -5s;
+  }
+  
+  #killjoy:hover{
+    box-shadow: 0px 0px 10px rgb(255, 238, 5) ;
+  }
+  
+  #cypher{
+    background-image: url(Imagenes/Cypher.jpg);
+    background-size: cover;
+    animation-delay: -6s;
+  }
+  
+  #cypher:hover{
+    box-shadow: 0px 0px 10px rgb(235, 240, 237) ;
+  }
+  
+  #brimstrone{
+    background-image: url(Imagenes/Brim2.jpg);
+    background-size: cover;
+    animation-delay: -7s;
+  }
+  
+  #brimstrone:hover{
+    box-shadow: 0px 0px 10px rgb(177, 57, 9) ;
+  }
+  
+  .tarjeta h3{
+    color: white;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+    background-color: #ff0000;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Des1 {
+    background: linear-gradient(to right, #ff0000, #4f9ac5); /* Gradiente de rojo a azul */
+    -webkit-background-clip: text; /* Propiedad específica para WebKit para aplicar el gradiente al texto */
+    background-clip: text; /* Aplicar el gradiente al texto */
+    color: transparent; /* Hacer el texto transparente para que se muestre el gradiente de fondo */
+}
+
+
+.FirstImagine {
+    max-width: 50%; /* Define el ancho máximo */
+    margin: auto; /* Centra horizontalmente */
+    border: 5px solid rgb(21, 203, 216); /* Agrega un borde sólido de 2px de ancho y color negro */
+}
+
+
+.Descripcion {
+   font-size: 20px;
+    text-align: justify; 
+    margin: 0 auto; 
+    max-width: 800px; 
+    color: rgb(255, 255, 255);
+}
+
+.Cuadrito {
+    background: linear-gradient(to right, #ff0000, #0000ff); /* Gradiente de rojo a azul */
+    padding: 20px;
+    border-radius: 10px;
+    width: 900px;
+    margin: 0 auto;
+}
+.light{
+    color: white;
+}
+
+
+.Cuadro2{
+    background: linear-gradient(to right, #ff0000, #0000ff); /* Gradiente de rojo a azul */
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+.Galeri{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
